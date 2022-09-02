@@ -1,0 +1,6 @@
+Differences between async filesystem and synchronous file system
+
+-   Sync tasks are finished one by
+-   Async task are offloaded once started and ready to pick another task
+
+But using callbacks within callbacks leads to a lot of code garbage. Promises and async/await are better alternatives

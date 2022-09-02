@@ -1,0 +1,15 @@
+npm is a global package manager. It's also a global command which comes with node.
+
+-   npm --version
+-   npm i <packageName> (Install package locally to be used in this particular project)
+-   npm i -g <packageName> (Install package globally to bes used in any project)
+
+-   package.json (manifest file: stores important information about the project/package)
+-   3 ways to create package.json
+    -   Manually (Creating a package.json file in root and create properties)
+    -   npm init (step by step configuration, enter to skip)
+    -   npm init -y (everything default)
+
+-   npm install (To install dependencies (node module folder) from package.json)
+-   npm install -D(--save-dev) (Install depen. as dev dependency because they are to used 
+                                mostly for local purposes and not in deployent)

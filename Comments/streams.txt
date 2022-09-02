@@ -1,0 +1,10 @@
+Streams in nodejs are used to read or write data sequentially. When we have to handle 
+and manipulate streaming data, we use streams.
+
+4 types of streams:
+-   Writable -> used to write data sequentially
+-   Readable -> used to read data sequentially
+-   Duplex -> used to read and write data sequentially
+-   Transorm - used to modify data while reading or writing
+
+Like event, many built in modules use streaming interface. Streams extend event emitter class.
